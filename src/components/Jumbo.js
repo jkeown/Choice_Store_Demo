@@ -30,7 +30,7 @@ const Jumbo = ({ className }) => {
         backgroundPosition: 'center top'
       }}
     >
-      <h1 className="in-view flex flex-col items-center font-bold"
+      <h1 className="in-view flex flex-col items-center font-bold text-center"
         style={{
           textShadow: '#000000 0 0 1px',
         }}
