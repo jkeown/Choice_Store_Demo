@@ -1,0 +1,14 @@
+<svg width="400" height="35" xmlns="http://www.w3.org/2000/svg">
+                        <path id="pathItem"
+                            d="M5 0 Q 30 15 285 5"
+                            stroke="#ecc94b"
+                            fill="transparent"
+                            stroke-width="7"
+                            stroke-linecap="round" />
+                        <path id="pathItem1"
+                            d="M5 5 Q 5 -5 285 15"
+                            stroke="#3182ce"
+                            fill="transparent"
+                            stroke-width="7"
+                            stroke-linecap="round" />
+                    </svg>
