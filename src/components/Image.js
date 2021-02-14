@@ -20,13 +20,11 @@ function Image({ product }) {
         alt={product.node.name}
       />
       <button
-        role="previous image"
         disabled={currentImage === 0}
         className="absolute bottom-0 bg-black bg-opacity-50 text-white p-2 disabled:opacity-0"
         onClick={prevImage}
       >&#x2190;</button>
       <button
-        role="next image"
         className="absolute bottom-0 right-0 bg-black bg-opacity-50 text-white p-2 disabled:opacity-0"
         onClick={nextImage}
         disabled={currentImage >= (productImages.length - 1)}

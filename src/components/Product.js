@@ -8,11 +8,11 @@ function Product({ product }) {
       <div>
         <Image product={product} />
       </div>
-      <div className="flex justify-between items-baseline leading-loose p-2">
-        <h2 className="font-bold text-blue-500 text-3xl">{product.node.name}</h2>
-        <span style={{ 'min-width': 65 }} className="font-bold text-blue-900 text-md text-right">
+      <div className="flex flex-col p-2 leading-8">
+        <h3 className="font-bold text-blue-700 text-2xl">{product.node.name}</h3>
+        <p style={{ 'min-width': 65 }} className="leading-4 font-bold text-blue-900 text-md text-right">
           $ {product.node.price}
-        </span>
+        </p>
       </div>
       <div style={{ minHeight: 50 }}>
         <p className="text-blue-900 text-lg px-2">

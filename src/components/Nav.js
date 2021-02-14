@@ -25,7 +25,7 @@ function Nav({ isNavOpen, categories, setIsNavOpen }) {
     <nav className={`h-0 w-full ${isNavOpen ? 'nav-open' : ''} lg:h-auto lg:nav-open lg:flex lg:justify-center`}>
       <ul className="bg-blue-600 bg-opacity-95 border-t border-white text-center lg:w-6/12 lg:border-none lg:flex lg:justify-center flex-wrap">
         <li className="p-2 capitalize" onClick={() => setIsNavOpen(!isNavOpen)}>
-          <Link to='#' >
+          <Link to='#'>
             Home
       </Link>
         </li >

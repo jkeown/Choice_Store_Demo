@@ -2,6 +2,7 @@ import React from "react"
 import instagram from "../images/icons/instagram.svg"
 import facebook from "../images/icons/facebook.svg"
 import youtube from "../images/icons/youtube.svg"
+import email from "../images/icons/mail.svg"
 
 
 function getCurrentYear() {
@@ -14,14 +15,21 @@ function getCurrentYear() {
 function Footer() {
   return (
     <footer id="contact" className="in-view flex flex-col items-center p-8 bg-blue-600 text-white mt-12">
+      <p className="font-bold text-lg tracking-wider mb-8">Follow us on social media.</p>
       <div className="icons flex justify-between w-1/2 md:w-1/4 mb-8">
         <a href="https://kindweb.com"><img src={instagram} alt="instagram icon" /></a>
         <a href="https://kindweb.com"><img src={facebook} alt="facebook icon" /></a>
         <a href="https://kindweb.com"><img src={youtube} alt="youtube icon" /></a>
       </div>
+      <div className="flex flex-col items-center font-bold text-lg tracking-wider px-4 my-8">
+        <p className="text-center">
+          Please use the email below directly to contact us
+        </p>
+        <a className="flex justify-center items-center text-white text-lg font-bold py-2 my-4 md:text-xl" href="mailto: fakeemail@gmail.com"><img className="mr-2" src={email} alt="email icon" />CONTACT US</a>
+      </div>
       <small className="text-blue-300">&copy; Copyright 2020{getCurrentYear()} KIND Websites</small>
       <div>
-        <h6 className="font-bold uppercase tracking-widest mt-4">* This website for demonstration purposes only *</h6>
+        <h4 className="font-bold uppercase tracking-widest mt-4">* This website for demonstration purposes only *</h4>
       </div>
     </footer>
   )
