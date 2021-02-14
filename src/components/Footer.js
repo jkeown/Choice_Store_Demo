@@ -27,7 +27,7 @@ function Footer() {
         </p>
         <a className="flex justify-center items-center text-white text-lg font-bold py-2 my-4 md:text-xl" href="mailto: placeholderdemoemail@gmail.com"><img className="mr-2" src={email} alt="email icon" />CONTACT US</a>
       </div>
-      <small className="text-blue-300">&copy; Copyright 2020{getCurrentYear()} KIND Websites</small>
+      <small className="text-blue-300">&copy; Copyright 2020{getCurrentYear()} YOUR STORE</small>
       <div>
         <h5 className="font-bold uppercase tracking-widest mt-4">* This website for demonstration purposes only *</h5>
       </div>
