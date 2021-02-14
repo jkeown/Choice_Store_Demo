@@ -48,7 +48,7 @@ function Home() {
       })
 
     mainContent.push(
-      <section key={category} id={!isNaN(category.charAt(0)) ? category.substr(1) : category} className="in-view">
+      <section key={category} id={!isNaN(category.charAt(0)) ? category.substr(1) : category}>
         <div className="my-12">
           <h2 className="category text-center text-6xl capitalize relative">{
             !isNaN(category.charAt(0)) ? category.substr(1) : category
