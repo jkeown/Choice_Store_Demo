@@ -17,9 +17,9 @@ function Footer() {
     <footer id="contact" className="in-view flex flex-col items-center p-8 bg-blue-700 text-white mt-12">
       <h4 className="font-bold text-lg tracking-wider mb-8">Follow us on social media.</h4>
       <div className="icons flex justify-between w-1/2 md:w-1/4 mb-8">
-        <a href="https://placeholderdemolink.com"><img src={instagram} alt="instagram icon" /></a>
-        <a href="https://placeholderdemolink.com"><img src={facebook} alt="facebook icon" /></a>
-        <a href="https://placeholderdemolink.com"><img src={youtube} alt="youtube icon" /></a>
+        <a href="https://placeholderdemolink1.com"><img src={instagram} alt="instagram icon" /></a>
+        <a href="https://placeholderdemolink2.com"><img src={facebook} alt="facebook icon" /></a>
+        <a href="https://placeholderdemolink3.com"><img src={youtube} alt="youtube icon" /></a>
       </div>
       <div className="flex flex-col items-center font-bold text-lg tracking-wider px-4 my-8">
         <p className="text-center">

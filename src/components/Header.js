@@ -17,7 +17,7 @@ function Header({ categories }) {
         <div className="flex items-center">
           <img className="cursor-pointer order-1 ml-8 lg:hidden" src={isNavOpen ? close : menu} alt="navigation menu toggle" onClick={() => setIsNavOpen(!isNavOpen)} />
           <ul className="flex items-center">
-            <li className="snipcart-items-count text-yellow-500 font-bold mr-1"></li>
+            <li className="snipcart-items-count font-bold mr-1"></li>
             <li className="snipcart-checkout cursor-pointer">
               <img src={cart} alt="shopping cart" />
             </li>

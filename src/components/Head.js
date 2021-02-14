@@ -5,7 +5,7 @@ import { withPrefix } from 'gatsby'
 const Head = () => {
     return (
         <Helmet title="Choice - Online Store Demo">
-            <script src={withPrefix('app.js')} type="text/javascript" />
+            <html lang="en" />
         </Helmet>
     )
 }

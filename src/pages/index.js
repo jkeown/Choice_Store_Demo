@@ -1,10 +1,11 @@
 // VERSION 5 HAS NAVIGATION
 import React from "react"
+import Head from "../components/Head"
 import Header from "../components/Header"
 import Jumbo from "../components/Jumbo"
+import Message from "../components/Message"
 import Footer from "../components/Footer"
 import Product from "../components/Product"
-import Head from "../components/Head"
 import { useStaticQuery, graphql } from "gatsby"
 
 function Home() {
@@ -65,8 +66,9 @@ function Home() {
   return (
     <div className="min-h-screen flex flex-col">
       <Head />
-      <Jumbo />
       <Header categories={categories} />
+      <Jumbo />
+      <Message />
       <main className="mx-auto flex-grow mt-12 w-11/12 lg:w-9/12 lg:mt-20">
         {mainContent}
       </main>
