@@ -1,4 +1,5 @@
 import React, { useState } from "react"
+import Img from 'gatsby-image'
 
 function Image({ product }) {
   let productImages = product.node.images
@@ -14,9 +15,9 @@ function Image({ product }) {
   return (
     <div className="relative text-2xl">
       {/* object-top for image below */}
-      <img
+      <Img
         className="object-cover h-64 w-full"
-        src={productImages[currentImage].resize.src}
+        fluid={productImages[currentImage].fluid}
         alt={product.node.name}
       />
       <button

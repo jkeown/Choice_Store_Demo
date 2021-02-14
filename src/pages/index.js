@@ -20,8 +20,8 @@ function Home() {
           description
           productId
           images {
-            resize(quality: 100) {
-              src
+            fluid(maxWidth: 300){
+              ...GatsbyContentfulFluid
             }
           }
         }
