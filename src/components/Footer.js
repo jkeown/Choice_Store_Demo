@@ -14,8 +14,8 @@ function getCurrentYear() {
 
 function Footer() {
   return (
-    <footer id="contact" className="in-view flex flex-col items-center p-8 bg-blue-600 text-white mt-12">
-      <p className="font-bold text-lg tracking-wider mb-8">Follow us on social media.</p>
+    <footer id="contact" className="in-view flex flex-col items-center p-8 bg-blue-700 text-white mt-12">
+      <h4 className="font-bold text-lg tracking-wider mb-8">Follow us on social media.</h4>
       <div className="icons flex justify-between w-1/2 md:w-1/4 mb-8">
         <a href="https://placeholderdemolink.com"><img src={instagram} alt="instagram icon" /></a>
         <a href="https://placeholderdemolink.com"><img src={facebook} alt="facebook icon" /></a>
@@ -29,7 +29,7 @@ function Footer() {
       </div>
       <small className="text-blue-300">&copy; Copyright 2020{getCurrentYear()} KIND Websites</small>
       <div>
-        <h4 className="font-bold uppercase tracking-widest mt-4">* This website for demonstration purposes only *</h4>
+        <h5 className="font-bold uppercase tracking-widest mt-4">* This website for demonstration purposes only *</h5>
       </div>
     </footer>
   )

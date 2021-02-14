@@ -20,7 +20,7 @@ function Button({ product }) {
     }
     else {
         return (
-            <button className="snipcart-add-item border-2 border-yellow-600 font-bold text-yellow-700 px-4 py-2 hover:bg-yellow-600 hover:bg-yellow-600 hover:text-black"
+            <button className="snipcart-add-item border-2 border-yellow-600 font-bold text-yellow-800 px-4 py-2 hover:bg-yellow-600 hover:bg-yellow-600 hover:text-white"
                 data-item-id={product.node.productId}
                 data-item-price={product.node.price}
                 data-item-url="/"

@@ -11,7 +11,7 @@ function Header({ categories }) {
   const [isNavOpen, setIsNavOpen] = useState(false
   )
   return (
-    <header className="flex flex-col justify-center items-center bg-blue-600 text-white fixed w-full z-10">
+    <header className="flex flex-col justify-center items-center bg-blue-700 text-white fixed w-full z-10">
       <div className="header-container p-4 flex justify-between items-center w-full md:w-8/12 lg:w-6/12">
         <Logo />
         <div className="flex items-center">
